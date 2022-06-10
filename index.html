@@ -18,6 +18,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
     />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -33,17 +41,17 @@
               class="d-flex list-unstyled text-white text-uppercase d-none d-lg-flex"
             >
               <li>
-                <a class="text-decoration-none mx-1 text-white" href="#"
+                <a class="text-decoration-none mx-4 text-white" href="#"
                   >portfolio</a
                 >
               </li>
               <li>
-                <a class="text-decoration-none mx-1 text-white" href="#"
+                <a class="text-decoration-none mx-4 text-white" href="#"
                   >about</a
                 >
               </li>
               <li>
-                <a class="text-decoration-none mx-1 text-white" href="#"
+                <a class="text-decoration-none mx-4 text-white" href="#"
                   >contact</a
                 >
               </li>
@@ -79,9 +87,9 @@
         </div>
         <!-- Star divider -->
         <div class="d-flex justify-content-center align-items-center">
-          <div class="line bg-dark"></div>
-          <i class="bi bi-star-fill mx-2"></i>
-          <div class="line bg-dark"></div>
+          <div class="line cs-bg-dark"></div>
+          <i class="bi bi-star-fill cs-text-dark mx-2"></i>
+          <div class="line cs-bg-dark"></div>
         </div>
 
         <div class="row p-3">
@@ -170,9 +178,97 @@
     </section>
     <!-- Contact me -->
     <section id="contact-me">
-      <div class="container-fluid mt-">
+      <div class="container-fluid">
+        <!-- section title -->
+        <div class="row">
+          <h1 class="text-uppercase text-center mt-5">Contact me</h1>
+        </div>
+        <!-- Star divider -->
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="line cs-bg-dark"></div>
+          <i class="bi bi-star-fill cs-text-dark mx-2"></i>
+          <div class="line cs-bg-dark"></div>
+        </div>
+        <!-- Form -->
+        <div class="row">
+          <div class="col-8 offset-2 col-md-8 offset-md-2">
+            <form>
+              <!-- Name -->
+              <div class="mb-2">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
 
+              <!-- Email -->
+              <div class="mb-2">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+
+              <!-- Phone number -->
+              <div class="mb-2">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+              <!-- Message -->
+              <div class="mb-2">
+                <label for="comments">Message</label>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    id="comments"
+                    style="height: 200px"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 mt-1">
+                  <a href="#" class="btn btn-info cs-bg-primary text-white mb-5"
+                    >Send</a
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
+    <!-- Address -->
+    <footer>
+      <div class="container-fluid text-center">
+        <div class="row text-white p-4">
+          <!-- Location -->
+          <div class="offset-1 col-10 col-md-4 offset-md-0 mt-3 p-md-0">
+            <h4 class="text-uppercase">Location</h4>
+            <p class="lead">2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <!-- Around the web -->
+          <div class="offset-1 col-10 col-md-4 offset-md-0 my-4 my-md-3 p-md-0">
+            <h4 class="text-uppercase">Around the web</h4>
+            <div class="social my-2">
+              <i class="mx-1 fa-brands fa-facebook-f"></i>
+              <i class="mx-1 fa-brands fa-google-plus-g"></i>
+              <i class="mx-1 fa-brands fa-twitter"></i>
+              <i class="mx-1 fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <!-- About freelancer -->
+          <div class="offset-1 col-10 col-md-4 offset-md-0 my-3 p-md-0">
+            <h4 class="text-uppercase">About freelancer</h4>
+            <p class="lead">
+              Freelance is a free to use, open source Bootstrap theme created by
+              <a class="text-success text-decoration-none" href="#"
+                >Start Bootstrap</a
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row cs-bg-dark footer-bottom">
+        <div class="col-12">
+          <p class="text-white text-center"><small>Copyright &copy Boolean Classe #68 2022</small> </p>
+        </div>
+      </div>
+    </footer>
   </body>
-</html>
+</html>z
