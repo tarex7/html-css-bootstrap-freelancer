@@ -11,7 +11,7 @@ nav {
 }
 
 .jumbotron {
-    background-color:#1abc9c ;
+  background-color: #1abc9c;
 }
 
 .bi {
@@ -19,29 +19,25 @@ nav {
 }
 
 .line {
-    height: 5px;
-    width: 80px;
-    background-color: #fff;
-    border-radius: 5px;
+  height: 5px;
+  width: 80px;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 h2 {
   margin: 0;
 }
 
-.h-100 {
-  height: 100%;
-}
-
 .jumbotron img {
-   height: 250px;
+  height: 250px;
 }
 
 /* About */
 #about {
-    background-color: #1abc9c;
+  background-color: #1abc9c;
 }
 
 .bi-download {
-    font-size: 1rem;
+  font-size: 1rem;
 }
